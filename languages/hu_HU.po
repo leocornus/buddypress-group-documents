@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Group Documents\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/buddypress-group-documents\n"
+"POT-Creation-Date: 2010-04-11 01:46+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bálint Kriván <balint@krivan.hu>\n"
+"Language-Team: Bálint Kriván <balint@krivan.hu>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+
+#: include/activity.php:11
+#, php-format
+msgid "%s uploaded the file: %s to %s"
+msgstr "%s feltöltötte a(z) %s fájlt a(z) %s csoportba"
+
+#: include/activity.php:31
+#, php-format
+msgid "%s edited the file: %s in %s"
+msgstr "%s szerkesztette a(z) %s fájlt a(z) %s csoportban"
+
+#: include/activity.php:48
+#, php-format
+msgid "%s deleted the file: %s from %s"
+msgstr "%s törölte a(z) %s fájlt a(z) %s csoportból"
+
+#: include/admin-uploads.php:39
+msgid "Bulk File Uploads"
+msgstr "Csoportos fájlfeltöltés"
+
+#: include/admin-uploads.php:48
+#: include/widgets.php:87
+#: include/widgets.php:187
+msgid "Select Group..."
+msgstr "Csoport kiválasztása..."
+
+#: include/admin-uploads.php:64
+msgid "Move File"
+msgstr "Fájl mozgatása"
+
+#: include/admin-uploads.php:93
+msgid "You must choose a group for the file."
+msgstr "Nem választott csoportot a fájlhoz."
+
+#: include/admin-uploads.php:117
+msgid "Document moved successfully."
+msgstr "Dokumentum sikeresen átmozgatva."
+
+#: include/admin-uploads.php:120
+msgid "There was a problem saving the file info."
+msgstr "Hiba történt a fájl információinak mentése során."
+
+#: include/admin-uploads.php:123
+msgid "There was a problem moving the file."
+msgstr "Hiba volt a fájl mozgatása során"
+
+#: include/admin.php:66
+#: index.php:164
+msgid "Group Documents Admin"
+msgstr "Csoport dokumentumok adminisztrációja"
+
+#: include/admin.php:69
+#, php-format
+msgid "%s Documents Moved."
+msgstr "%s dokumentum mozgatva."
+
+#: include/admin.php:70
+msgid "Settings Updated."
+msgstr "Beállítások frissítve."
+
+#: include/admin.php:76
+msgid "Valid File Formats"
+msgstr "Engedélyezett formátumok"
+
+#: include/admin.php:82
+msgid "Items per Page"
+msgstr "Elemek oldalanként"
+
+#: include/admin.php:87
+msgid "Upload Permission:"
+msgstr "Feltöltési jogosultságok"
+
+#: include/admin.php:88
+msgid "Members &amp; Moderators"
+msgstr "Tagok és moderátorok"
+
+#: include/admin.php:89
+msgid "Moderators Only"
+msgstr "Csak moderátorok"
+
+#: include/admin.php:90
+msgid "Let individual moderators decide"
+msgstr "Moderátorok egyéni döntése szerint"
+
+#: include/admin.php:93
+msgid "Use Categories"
+msgstr "Kategóriák használata"
+
+#: include/admin.php:98
+msgid "Display Icons"
+msgstr "Ikonok megjelenítése"
+
+#: include/admin.php:103
+msgid "Display File Size"
+msgstr "Fájl méretének megjelenítése"
+
+#: include/admin.php:109
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: include/classes.php:191
+msgid "Whoops!  There was no file selected for upload."
+msgstr "Hoppá! Nem lett fájl kiválasztva feltöltésre."
+
+#: include/classes.php:196
+msgid "The type of document submitted is not allowed"
+msgstr "A feltöltendő dokumentum típusa nem engedélyezett"
+
+#: include/classes.php:204
+msgid "There was a problem; your file is larger than is allowed by the site administrator."
+msgstr "Hiba történt; a feltöltendő fájl nagyobb, mint a megengedett."
+
+#: include/classes.php:207
+msgid "There was a problem; the file was only partially uploaded."
+msgstr "Hiba történt; a feltöltendő fájl csak részlegesen lett feltöltve."
+
+#: include/classes.php:210
+msgid "There was a problem; no file was found for the upload."
+msgstr "Hiba történt; nem található a fájl."
+
+#: include/classes.php:213
+msgid "There was a problem; the temporary folder for the file is missing."
+msgstr "Hiba történt; nem található ideiglenes könyvtár a fájlhoz."
+
+#: include/classes.php:216
+msgid "There was a problem; the file could not be saved."
+msgstr "Hiba történt; a fájlt nem lehet elmenteni."
+
+#: include/classes.php:237
+msgid "There was a problem saving your file, please try again."
+msgstr "Hiba történt a mentés során, kérjük próbálja újra."
+
+#: include/group-admin.php:12
+#: index.php:245
+msgid "Documents"
+msgstr "Dokumentumok"
+
+#: include/group-admin.php:99
+msgid "Document Upload Permissions:"
+msgstr "Dokumentum feltöltési jogosultságok:"
+
+#: include/group-admin.php:100
+msgid "All Group Members"
+msgstr "Minden csoporttag"
+
+#: include/group-admin.php:101
+msgid "Only Group Moderators"
+msgstr "Csak csoport moderátorok"
+
+#: include/group-admin.php:111
+msgid "Category List:"
+msgstr "Kategória lista:"
+
+#: include/group-admin.php:135
+msgid "Save Changes"
+msgstr "Változtatások mentése"
+
+#: include/group-admin.php:200
+msgid "Settings saved successfully"
+msgstr "Beállítások mentve"
+
+#: include/notifications.php:15
+msgid "A member uploads a document to a group you belong to"
+msgstr ""
+
+#: include/notifications.php:21
+msgid "A member uploads a document to a group for which you are an moderator/admin"
+msgstr ""
+
+#: include/notifications.php:50
+#, php-format
+msgid "A document was uploaded to %s"
+msgstr ""
+
+#: include/notifications.php:98
+#, php-format
+msgid ""
+"%s uploaded a new file: %s to the group: %s.\n"
+"\n"
+"To see %s's profile: %s\n"
+"\n"
+"To see the group %s's homepage: %s\n"
+"\n"
+"To download the new document directly: %s\n"
+"\n"
+"------------------------\n"
+msgstr ""
+
+#: include/notifications.php:111
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr ""
+
+#: include/templatetags.php:97
+msgid "Document successfully uploaded"
+msgstr "A dokumentum sikeresen feltöltve"
+
+#: include/templatetags.php:108
+msgid "Document successfully edited"
+msgstr "A dokumentum sikeresen szerkesztve"
+
+#: include/templatetags.php:143
+#: index.php:486
+msgid "Upload a New Document"
+msgstr "Új dokumentum feltöltése"
+
+#: include/templatetags.php:156
+msgid "Edit Document"
+msgstr "Dokumentum szerkesztése"
+
+#: include/templatetags.php:161
+msgid "Document successfully deleted"
+msgstr "A dokumentum sikeresen törölve"
+
+#: include/templatetags.php:309
+#, php-format
+msgid "Viewing item %s to %s (of %s items)"
+msgstr "Kilistázott elemek: %s - %s (összesen %s elem)"
+
+#: include/widgets.php:12
+msgid "The most recently uploaded group documents"
+msgstr ""
+
+#: include/widgets.php:13
+#: include/widgets.php:20
+msgid "Recent Group Documents"
+msgstr "Legfrissebb csoport dokumentumok"
+
+#: include/widgets.php:45
+#: include/widgets.php:145
+#, php-format
+msgid "%s posted in %s"
+msgstr ""
+
+#: include/widgets.php:51
+#: include/widgets.php:151
+msgid "There are no documents to display."
+msgstr "Nincs megjeleníthető dokumentum"
+
+#: include/widgets.php:82
+#: include/widgets.php:182
+msgid "Title:"
+msgstr "Cím:"
+
+#: include/widgets.php:85
+#: include/widgets.php:185
+msgid "Filter by Group:"
+msgstr "Csoportra szűrés:"
+
+#: include/widgets.php:99
+#: include/widgets.php:199
+msgid "Show featured documents only"
+msgstr ""
+
+#: include/widgets.php:102
+#: include/widgets.php:202
+msgid "Number of items to show:"
+msgstr ""
+
+#: include/widgets.php:111
+msgid "The most commonly downloaded group documents"
+msgstr ""
+
+#: include/widgets.php:112
+#: include/widgets.php:119
+msgid "Popular Group Documents"
+msgstr "Népszerű csoport dokumentumok"
+
+#: index.php:164
+#: index.php:316
+msgid "Group Documents"
+msgstr "Csoport dokumentumok"
+
+#: index.php:285
+msgid "Group Document Categories"
+msgstr "Csoport dokumentumok kategóriái"
+
+#: index.php:319
+#: index.php:369
+msgid "Document List"
+msgstr "Dokumentum lista"
+
+#: index.php:343
+#: index.php:470
+msgid "Category:"
+msgstr "Kategória:"
+
+#: index.php:345
+msgid "All"
+msgstr "Összes"
+
+#: index.php:350
+#: index.php:363
+msgid "Go"
+msgstr ""
+
+#: index.php:357
+msgid "Order by:"
+msgstr "Rendezés"
+
+#: index.php:359
+msgid "Newest"
+msgstr "Legújabb"
+
+#: index.php:360
+msgid "Alphabetical"
+msgstr "ABC-sorrendben"
+
+#: index.php:361
+msgid "Most Popular"
+msgstr "Legnépszerűbb"
+
+#: index.php:403
+#, php-format
+msgid "Uploaded by %s on %s"
+msgstr "Feltöltve %s által, ekkor: %s"
+
+#: index.php:411
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: index.php:415
+msgid "Delete"
+msgstr "Törlés"
+
+#: index.php:425
+msgid "There have been no documents uploaded for this group"
+msgstr "Még nincs feltöltve dokumentum ehhez a csoporthoz"
+
+#: index.php:448
+msgid "Choose File:"
+msgstr "Fájl kiválasztása"
+
+#: index.php:453
+msgid "Featured Document"
+msgstr ""
+
+#: index.php:458
+msgid "Display Name:"
+msgstr "Megjelenítendő név:"
+
+#: index.php:461
+msgid "Description:"
+msgstr "Leírás:"
+
+#: index.php:465
+msgid "Submit"
+msgstr "Küldés"
+
+#: index.php:508
+msgid "The item to delete could not be found"
+msgstr "A törlendő elem nem létezik"
+
+#: index.php:514
+msgid "There was a security problem"
+msgstr "Biztonsági probléma lépett fel"
+
+msgid "Add"
+msgstr "Hozzáad"
+
+msgid "Update"
+msgstr "Frissít"
+
