@@ -175,16 +175,16 @@ msgstr "Beállítások mentve"
 
 #: include/notifications.php:15
 msgid "A member uploads a document to a group you belong to"
-msgstr ""
+msgstr "Egy tag feltölt egy dokumentumot, melynek Ön is tagja"
 
 #: include/notifications.php:21
 msgid "A member uploads a document to a group for which you are an moderator/admin"
-msgstr ""
+msgstr "Egy tag feltölt egy dokumentumot, melyet Ön adminisztrál"
 
 #: include/notifications.php:50
 #, php-format
 msgid "A document was uploaded to %s"
-msgstr ""
+msgstr "Egy új dokumentum lett feltöltve a(z) %s csoportba"
 
 #: include/notifications.php:98
 #, php-format
@@ -199,11 +199,20 @@ msgid ""
 "\n"
 "------------------------\n"
 msgstr ""
+"%s feltöltött egy új fájlt: %s a(z) %s csoportba.\n"
+"\n"
+"%s profiljának megtekintéséshez: %s\n"
+"\n"
+"%s csoport oldalának megtekintéséhez: %s\n"
+"\n"
+"A fájl közvetlen letöltése: %s\n"
+"\n"
+"------------------------\n"
 
 #: include/notifications.php:111
 #, php-format
 msgid "To disable these notifications please log in and go to: %s"
-msgstr ""
+msgstr "Ezen értesítések kikapcsolásához kérem jelentkezzen be és navigáljon ide: %s"
 
 #: include/templatetags.php:97
 msgid "Document successfully uploaded"
